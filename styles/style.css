@@ -27,3 +27,43 @@ nav a:hover {
   padding: 5px 15px 5px 15px;
   border-top: solid greenyellow 2px; /* border wnr hover kleur */
 }
+/* grid code */
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  height: 100%;
+  width: 100%;
+
+}
+
+.div1 {
+  grid-area: 1 / 1 / 3 / 2;
+  background-color: brown;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: brown;
+}
+.div3 {
+  grid-area: 1 / 3 / 2 / 4;
+  background-color: brown;
+}
+.div4 {
+  grid-area: 1 / 4 / 2 / 5;
+  background-color: brown;
+}
+.div5 {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: brown;
+}
+.div6 {
+  grid-area: 2 / 3 / 3 / 4;
+  background-color: brown;
+}
+.div7 {
+  grid-area: 2 / 4 / 3 / 5;
+  background-color: brown;
+}
