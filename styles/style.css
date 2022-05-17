@@ -71,12 +71,7 @@ main{
   min-width: 179px;
   width: 100%;
   background-color: transparent;
-<<<<<<< Updated upstream
   height: 405px;
-=======
-  min-height: 180px;
-  height: 100%;
->>>>>>> Stashed changes
   perspective: 1000px;
 }
 .box-inner {
