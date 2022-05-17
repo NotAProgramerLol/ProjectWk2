@@ -64,7 +64,7 @@ nav a:hover {
 .box {
   width: 100%;
   background-color: transparent;
-  height: 300px;
+  height: 410px;
   perspective: 1000px;
 
 }
@@ -75,6 +75,7 @@ nav a:hover {
   text-align: center;
   transition: transform 0.5s;
   transform-style: preserve-3d;
+  padding-top: 0.5%;
 }
 .box:hover .box-inner {
   transform: rotateY(180deg);
@@ -94,6 +95,5 @@ nav a:hover {
   background-color: darkseagreen;
   color: #eeeeee;
   transform: rotateY(180deg);
-  line-height: 2000%;
+  padding-bottom: auto;
 }
-
