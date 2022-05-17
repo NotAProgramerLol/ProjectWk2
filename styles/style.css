@@ -28,10 +28,7 @@ nav a:hover {
   padding: 5px 15px 5px 15px;
   border-top: solid greenyellow 2px; /* border wnr hover kleur */
 }
-main{
 
-
-}
 /* grid code */
 .parent {
   display: grid;
