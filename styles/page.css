@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
+
 /* easteregg */
 .easteregg{
     text-align: center;
     text-decoration: underline;
     font-family: source code pro;
     margin: 48vh;
+    font-family: "Smooch", cursive;
 }
 
 * {
@@ -52,10 +55,10 @@ nav a:hover {
   background-color: rgb(46, 139, 86);
   padding-bottom: 4%;
   border-radius: 5px;
-  transition-duration: 500ms;
+  transition-duration: 800ms;
 }
 .parent:hover{
-background-color: rgba(46, 139, 86, 0.53);
+background-color: rgba(46, 139, 86, 0.396);
 }
 .foto1 {
   border: 5px black double;
@@ -81,6 +84,7 @@ background-color: rgba(46, 139, 86, 0.53);
   text-decoration: underline;
 }
 .tekst2 {
+    margin-left: 20%;
 }
 
 body:hover{
