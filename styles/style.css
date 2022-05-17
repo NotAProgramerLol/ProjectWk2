@@ -6,7 +6,6 @@
 }
 body {
   background-color: gainsboro; /* achtergrond kleur */
-  overflow-x: visible;
 }
 header {
   background-color: darkseagreen; /* header kleur */
