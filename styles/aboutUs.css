@@ -1,0 +1,22 @@
+.parentAbout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  width: 90%;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+main {
+  height: 100%;
+}
+.div1About {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: seagreen;
+}
+.div2About {
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: seagreen;
+}
