@@ -71,7 +71,8 @@ main{
   min-width: 179px;
   width: 100%;
   background-color: transparent;
-  height: 405px;
+  min-height: 180px;
+  height: 100%;
   perspective: 1000px;
 }
 .box-inner {
