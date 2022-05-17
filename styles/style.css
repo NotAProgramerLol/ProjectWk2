@@ -6,7 +6,6 @@
 }
 body {
   background-color: gainsboro; /* achtergrond kleur */
-  overflow-x: visible;
 }
 header {
   background-color: darkseagreen; /* header kleur */
@@ -28,9 +27,7 @@ nav a:hover {
   padding: 5px 15px 5px 15px;
   border-top: solid greenyellow 2px; /* border wnr hover kleur */
 }
-main{
-
-
+main {
 }
 /* grid code */
 .parent {
