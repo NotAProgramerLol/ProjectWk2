@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
 
 /* easteregg */
-.easteregg{
+/* .easteregg{
     text-align: center;
     text-decoration: underline;
     font-family: source code pro;
     margin: 48vh;
     font-family: "Smooch", cursive;
-}
+} */
+/* .parent:hover{
+background-color: rgba(46, 139, 86, 0.396);
+} */
 
+/* html page */
 * {
   margin: 0;
   padding: 0;
@@ -19,17 +23,18 @@ body {
   background-color: gainsboro; /* achtergrond kleur */
 }
 header {
-  background-color: darkseagreen; /* header kleur */
+  background-color: #86bcdd; /* header kleur */
   box-shadow: 0px 0px 10px;
   padding: 10px;
 }
+/* nav-bar */
 nav {
   padding: 10px;
   text-align: center;
 }
 nav a {
   text-decoration: none;
-  color: green; /* links die in nav tag zitten kleur */
+  color: rgba(70, 109, 236, 0.8); /* links die in nav tag zitten kleur */
   transition-duration: 250ms;
   padding: 5px;
 }
@@ -41,6 +46,7 @@ nav a:hover {
 .box {
   background-color: green;
   margin: 5%;
+ 
 }
 
 /* GRID LAYOUT */
@@ -52,18 +58,18 @@ nav a:hover {
   grid-row-gap: 3px;
   padding-top: 3%;
   margin: 3%;
-  background-color: rgb(46, 139, 86);
+  margin-top: 6%;
+  background-color: rgba(24, 72, 230, 0.708);
   padding-bottom: 4%;
   border-radius: 5px;
   transition-duration: 800ms;
 }
-/* .parent:hover{
-background-color: rgba(46, 139, 86, 0.396);
-} */
+/* Body Content */
 .foto1 {
+  height: 350px;
   border: 5px black double;
   /* outline: 3px solid green; */
-  background-color: rgba(15, 128, 15, 0.657);
+  background-color: rgba(84, 91, 230, 0.657);
 }
 .div1 {
   grid-area: 1 / 1 / 2 / 2;
@@ -85,12 +91,6 @@ background-color: rgba(46, 139, 86, 0.396);
 }
 .tekst2 {
     margin-left: 20%;
+    margin-right: 20%;
 }
 
-body:hover{
-    background-image: url('../images/background\ 1.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  
-}

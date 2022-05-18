@@ -70,8 +70,9 @@ nav a:hover {
 
   width: 100%;
   background-color: transparent;
-  height: 410px;
+  height: 405px;
   perspective: 1000px;
+  
 }
 .box-inner {
   position: relative;
@@ -108,4 +109,42 @@ nav a:hover {
 }
 .nms{
   text-decoration: underline;
+}
+
+/* footer */
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+footer {
+  background-color: rgb(49, 49, 49);
+  height: 4.99%;
+  width: 100%;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+
+}
+.glrLogo {
+  float: right;
+  height: 60px;
+  width:  auto;
+  position: absolute;
+  top: 5px;
+  bottom: 25px;
+  right: 70px;
+}
+.glrLogoText {
+  float: right;
+  margin: 0;
+  width: auto;
+  position: relative;
+  bottom: 10px;
+  right: 130px;
+
+}
+.link{
+  color: white;
 }
