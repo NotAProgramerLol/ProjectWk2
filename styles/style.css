@@ -97,7 +97,7 @@ nav a:hover {
   color: #111111;
 }
 .box-back {
-  background-color: rgba(87, 212, 246, 0.627);
+  background-color: rgba(87, 212, 246);
   color: #eeeeee;
   transform: rotateY(180deg);
   padding-bottom: auto;
