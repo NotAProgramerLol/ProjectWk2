@@ -1,57 +1,56 @@
 .parentAbout {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 20px;
-  grid-row-gap: 0px;
-  width: 80%;
-  align-items: center;
-  margin-left: 10%;
-  margin-top: 20px;
-  min-height: 80vh;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 0px;
+	width: 80%;
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 20px;
+	min-height: 80vh;
 }
 .gridItem {
-  color: snow;
-  background-color: seagreen;
-  box-shadow: 0px 0px 10px gray;
-  min-height: 80vh;
-  font-size: x-large;
+	color: snow;
+	background-color: seagreen;
+	box-shadow: 0px 0px 10px gray;
+	min-height: 80vh;
+	font-size: x-large;
 }
 .gridItem p,
 .gridItem img {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  transition-duration: 500ms;
-
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	transition-duration: 500ms;
 }
 .gridItem h1 {
-  text-align: center;
+	text-align: center;
 }
 .gridItem img {
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px black;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px black;
 }
 .gridItem:hover img {
-  scale: 1.1;
-  border-radius: 36px;
-  box-shadow: 10px 10px 15px rgba(41, 41, 41, 0.712);
+	scale: 1.1;
+	border-radius: 36px;
+	box-shadow: 10px 10px 15px rgba(41, 41, 41, 0.712);
 }
 .gridItem:hover p {
-  margin-top: 5%;
-  font-size: xx-large;
-  margin-bottom: 5%;
+	margin-top: 5%;
+	font-size: xx-large;
+	margin-bottom: 5%;
 }
 .gridItem h1 {
-  transition-duration: 500ms;
+	transition-duration: 500ms;
 }
 .gridItem:hover h1 {
-  color: aquamarine;
-  text-decoration: underline;
+	color: aquamarine;
+	text-decoration: underline;
 }
 .div1About {
-  grid-area: 1 / 1 / 2 / 2;
+	grid-area: 1 / 1 / 2 / 2;
 }
 .div2About {
-  grid-area: 1 / 2 / 2 / 3;
+	grid-area: 1 / 2 / 2 / 3;
 }

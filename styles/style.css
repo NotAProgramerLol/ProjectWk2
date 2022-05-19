@@ -1,146 +1,141 @@
 @import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-
+	margin: 0;
+	padding: 0;
 }
 body {
-  background-color: gainsboro; /* achtergrond kleur */
-  height: 100vh;
-  width: 100vw;
+	background-color: gainsboro; /* achtergrond kleur */
+	height: 100vh;
+	width: 100vw;
 }
 header {
-  background-color: #86bcdd; /* header kleur */
-  box-shadow: 0px 0px 10px;
-  padding: 10px;
+	background-color: #86bcdd; /* header kleur */
+	box-shadow: 0px 0px 10px;
+	padding: 10px;
 }
 nav {
-  padding: 10px;
-  text-align: center;
+	padding: 10px;
+	text-align: center;
 }
 nav a {
-  text-decoration: none;
-  color: rgba(70, 109, 236, 0.8) ; /* links die in nav tag zitten kleur */
-  transition-duration: 250ms;
-  padding: 5px;
+	text-decoration: none;
+	color: rgba(70, 109, 236, 0.8); /* links die in nav tag zitten kleur */
+	transition-duration: 250ms;
+	padding: 5px;
 }
 nav a:hover {
-  color: white;
-  font-size: larger;
-  padding: 5px 15px 5px 15px;
-  border-top: solid greenyellow 2px; /* border wnr hover kleur */
+	color: white;
+	font-size: larger;
+	padding: 5px 15px 5px 15px;
+	border-top: solid greenyellow 2px; /* border wnr hover kleur */
 }
 
 /* grid code */
 .parent {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 20px;
-  height: fit-content;
-  width: 100%;
-  min-height: 80vh;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 10px;
+	grid-row-gap: 20px;
+	height: fit-content;
+	width: 100%;
+	min-height: 80vh;
 }
 
 .div1 {
-  grid-area: 1 / 1 / 3 / 2;
-  background-color: #41b3a3;
+	grid-area: 1 / 1 / 3 / 2;
+	background-color: #41b3a3;
 }
 .div2 {
-  grid-area: 1 / 2 / 2 / 3;
+	grid-area: 1 / 2 / 2 / 3;
 }
 .div3 {
-  grid-area: 1 / 3 / 2 / 4;
+	grid-area: 1 / 3 / 2 / 4;
 }
 .div4 {
-  grid-area: 1 / 4 / 2 / 5;
+	grid-area: 1 / 4 / 2 / 5;
 }
 .div5 {
-  grid-area: 2 / 2 / 3 / 3;
+	grid-area: 2 / 2 / 3 / 3;
 }
 .div6 {
-  grid-area: 2 / 3 / 3 / 4;
+	grid-area: 2 / 3 / 3 / 4;
 }
 .div7 {
-  grid-area: 2 / 4 / 3 / 5;
+	grid-area: 2 / 4 / 3 / 5;
 }
 /*! cards home-page */
 .box {
-
-  width: 100%;
-  background-color: transparent;
-  height: 405px;
-  perspective: 1000px;
-  
+	width: 100%;
+	background-color: transparent;
+	height: 405px;
+	perspective: 1000px;
 }
 .box-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.5s;
-  transform-style: preserve-3d;
-  padding-top: 0.5%;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.5s;
+	transform-style: preserve-3d;
+	padding-top: 0.5%;
 }
 .box:hover .box-inner {
-  transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }
 .box-front,
 .box-back {
-  position: absolute;
-  min-width: 100%;
-  min-height: 100%;
-  backface-visibility: hidden;
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	backface-visibility: hidden;
 }
 .box-front {
-  background-color: #cccccc;
-  color: #111111;
+	background-color: #cccccc;
+	color: #111111;
 }
 .box-back {
-  background-color: rgba(87, 212, 246);
-  color: #eeeeee;
-  transform: rotateY(180deg);
-  padding-bottom: auto;
+	background-color: rgba(87, 212, 246);
+	color: #eeeeee;
+	transform: rotateY(180deg);
+	padding-bottom: auto;
 }
-.div1{
-  padding-top: 2%;
-  padding-left: 5%;
+.div1 {
+	padding-top: 2%;
+	padding-left: 5%;
 }
-.nms{
-  text-decoration: underline;
+.nms {
+	text-decoration: underline;
 }
 
 /* footer */
 
 footer {
-  background-color: rgb(49, 49, 49);
-  height: 3.5%;
-  width: 100%;
-  color: white;
-  position: fixed;
-  bottom: 0;
-  padding: 10px;
-
+	background-color: rgb(49, 49, 49);
+	height: 3.5%;
+	width: 100%;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	padding: 10px;
 }
 .glrLogo {
-  float: right;
-  height: 60px;
-  width:  auto;
-  position: absolute;
-  top: 5px;
-  bottom: 25px;
-  right: 70px;
+	float: right;
+	height: 60px;
+	width: auto;
+	position: absolute;
+	top: 5px;
+	bottom: 25px;
+	right: 70px;
 }
 .glrLogoText {
-  float: right;
-  margin: 0;
-  width: auto;
-  position: relative;
-  bottom: 10px;
-  right: 130px;
-
+	float: right;
+	margin: 0;
+	width: auto;
+	position: relative;
+	bottom: 10px;
+	right: 130px;
 }
-.link{
-  color: white;
+.link {
+	color: white;
 }
