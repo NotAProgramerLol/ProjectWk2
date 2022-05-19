@@ -19,9 +19,9 @@
 }
 .gridItem p,
 .gridItem img {
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
 	transition-duration: 500ms;
 }
 .gridItem h1 {
