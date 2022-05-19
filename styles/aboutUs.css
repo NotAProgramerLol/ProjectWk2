@@ -8,13 +8,13 @@
 	align-items: center;
 	margin-left: 10%;
 	margin-top: 20px;
-	min-height: 80vh;
+	min-height: 75vh;
 }
 .gridItem {
 	color: snow;
 	background-color: seagreen;
 	box-shadow: 0px 0px 10px gray;
-	min-height: 80vh;
+	min-height: 75vh;
 	font-size: x-large;
 }
 .gridItem p,
